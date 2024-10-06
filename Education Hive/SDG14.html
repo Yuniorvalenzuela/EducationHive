@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 14: Life Below Water</title>
+    <!-- Google Font for a modern style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Base color for SDG 14 */
+            color: #333;
+        }
+
+        /* Header */
+        .header-sdg {
+            background-color: #0077b6; /* SDG 14 related color */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Introductory Section */
+        .intro-sdg {
+            padding: 60px 20px;
+            background-color: #caf0f8; /* Softer color for this section */
+            text-align: center;
+            position: relative;
+        }
+
+        .intro-sdg h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .intro-sdg p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .intro-sdg img {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            top: 20px;
+        }
+
+        .intro-sdg img.left {
+            left: 20px;
+        }
+
+        /* Story Section */
+        .story-sdg {
+            padding: 60px 20px;
+            background-color: #ade8f4; /* SDG 14 related color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .story-sdg img {
+            width: 250px; /* Increased size */
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .story-sdg .text-content {
+            flex: 1;
+        }
+
+        .story-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .story-sdg p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Goals Section */
+        .goals-sdg {
+            padding: 60px 20px;
+            background-color: #90e0ef; /* Section color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .goals-sdg img {
+            width: 250px; /* Increased size */
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .goals-sdg .text-content {
+            flex: 1;
+        }
+
+        .goals-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .goals-sdg ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .goals-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        /* Game Mockup Section */
+        .game-mockup {
+            padding: 60px 20px;
+            background-color: #48cae4; /* Section color */
+            text-align: center;
+        }
+
+        .game-mockup h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .game-mockup img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid #ffffff;
+            border-radius: 10px;
+        }
+
+        /* Resources Section */
+        .resources-sdg {
+            padding: 60px 20px;
+            background-color: #00b4d8; /* Final color of the page */
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .resources-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .resources-sdg a {
+            text-decoration: none;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        .resources-sdg a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .story-sdg, .goals-sdg {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .story-sdg img, .goals-sdg img {
+                margin-bottom: 20px;
+            }
+
+            .goals-sdg ul {
+                padding-left: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-sdg">
+        <h1>SDG 14: Life Below Water</h1>
+        <p>Conserve and sustainably use the oceans, seas, and marine resources for sustainable development.</p>
+    </header>
+
+    <!-- Introductory Section -->
+    <section class="intro-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Explaining" class="left">
+        <h2>Why is SDG 14 Important?</h2>
+        <p>
+            The oceans are the heart of our planet. They regulate the climate, provide oxygen and food, and are home to millions of marine species. SDG 14 aims to protect this vital resource by promoting sustainable practices and safeguarding marine biodiversity. Despite their importance, the oceans face significant threats such as plastic pollution, overexploitation of resources, and climate change.
+        </p>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-sdg">
+        <img src="images/buzzbee3.png" alt="Buzzbee Telling a Story">
+        <div class="text-content">
+            <h3>The Story of SDG 14</h3>
+            <p>
+                Once upon a time, in the vast blue oceans, countless creatures lived in harmony. But as time passed, human activities began to disrupt this balance. Pollution, overfishing, and habitat destruction started to endanger marine life.
+            </p>
+            <p>
+                Recognizing the urgent need to act, world leaders adopted SDG 14 in 2015 as part of the 2030 Agenda for Sustainable Development. Since then, efforts have been made to reduce marine pollution, establish marine protected areas, and promote international cooperation for marine scientific research.
+            </p>
+            <p>
+                While progress has been made, there's still a long way to go. By working together, we can restore the health of our oceans and ensure a thriving marine ecosystem for future generations.
+            </p>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Presenting Goals">
+        <div class="text-content">
+            <h3>Goals of SDG 14</h3>
+            <ul>
+                <li>Reduce marine pollution, particularly from land-based activities.</li>
+                <li>Protect and restore marine and coastal ecosystems to avoid significant adverse impacts.</li>
+                <li>Ensure sustainable fishing practices.</li>
+                <li>Conserve at least 10% of coastal and marine areas, in line with national and international law.</li>
+                <li>Increase scientific knowledge, develop research capacity, and transfer marine technology.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Game Mockup Section -->
+    <section class="game-mockup">
+        <h3>Explore Our Interactive Ocean Game!</h3>
+        <img src="images/mockupgame.png" alt="Ocean Game Mockup">
+        <p style="color: #ffffff; font-size: 1.2em; margin-top: 20px;">
+            Dive into an underwater adventure with Shelldon! Clean up the oceans, save marine life, and learn how your actions can make a difference.
+        </p>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-sdg">
+        <h3>Resources to Learn More</h3>
+        <ul>
+            <li><a href="https://oceancolor.gsfc.nasa.gov/" target="_blank">NASA OceanColor</a>: Detailed information on ocean water quality and chlorophyll.</li>
+            <li><a href="https://www.earthdata.nasa.gov/worldview" target="_blank">NASA Earthdata Worldview</a>: Visualizations of data on water temperature, sea color, and more.</li>
+            <li><a href="https://coralreefwatch.noaa.gov/satellite/index.php" target="_blank">NOAA Coral Reef Watch</a>: Data on coral status and global health.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Education Hive. All rights reserved.</p>
+    </footer>
+</body>
+</html>

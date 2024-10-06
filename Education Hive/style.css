@@ -1,0 +1,153 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f6e7; /* Fondo color miel claro */
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffcc00; /* Amarillo miel */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #e6b800; /* Miel más oscura */
+    border-radius: 5px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff5cc; /* Miel clara */
+}
+
+.welcome-section h2 {
+    font-size: 36px;
+}
+
+.bee-image {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* Interactive Character */
+.interactive-character {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.interactive-character img {
+    max-width: 200px;
+}
+
+.character-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.character-buttons button:hover {
+    background-color: #e6b800;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 30px;
+}
+
+.primary-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.primary-button:hover {
+    background-color: #e6b800;
+}
+
+/* Documentation Section */
+.documentation-section {
+    display: flex;
+    padding: 50px;
+    background-color: #f7e6b5; /* Variación de miel */
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 75%;
+    margin-left: 5%;
+}
+
+.content h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}

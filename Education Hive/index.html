@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Sustainable Development Goals</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFAE6; /* Light cream color */
+            color: #333;
+        }
+
+        /* Page Header */
+        .header {
+            background-color: #fba300; /* Honey-like gold */
+            color: #4B3F1D; /* Dark brown */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 20px;
+            text-align: left;
+        }
+
+        /* Logo Container */
+        .logo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 300px; /* Adjust this value as desired */
+            height: auto;
+        }
+
+        /* Introductory Text Container */
+        .intro-text {
+            flex: 2;
+            text-align: left;
+        }
+
+        .intro-text h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        .intro-text p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        .intro-text em {
+            display: block;
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 1.1em;
+            color: #4B3F1D;
+        }
+
+        /* Buzzbee Section */
+        .bee-child {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #FFF2B2; /* Soft yellow */
+        }
+
+        .bee-child img {
+            width: 400px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .bee-child h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        .bee-child p {
+            font-size: 1.2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        /* Introductory Section */
+        .intro {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #FFFAE6; /* Light cream color */
+        }
+
+        .intro h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        /* SDG Buttons Container */
+        .sdg-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            background-color: #FFF6D1; /* Light yellow */
+        }
+
+        /* Each SDG Button */
+        .ods-button {
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+            border: 2px solid #D1A054; /* Dark gold */
+            border-radius: 10px;
+            background-color: #FFE082; /* Honey yellow */
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            color: #4B3F1D; /* Dark brown */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 4px 8px rgba(75, 63, 29, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .ods-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(75, 63, 29, 0.3);
+        }
+
+        /* Image inside each button */
+        .ods-button img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* SDG Names */
+        .ods-button p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 0.9em;
+            color: #4B3F1D; /* Dark brown */
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #4B3F1D; /* Dark brown */
+            color: #FFD700; /* Honey-like gold */
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .intro-text h1, .bee-child h2 {
+                font-size: 1.5em;
+            }
+
+            .ods-button {
+                width: 150px;
+                height: 150px;
+            }
+
+            .ods-button img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/Logo de la pagina.png" alt="Page Logo">
+        </div>
+        <!-- Introductory Text -->
+        <div class="intro-text">
+            <h1>Welcome to Education Hive!</h1>
+            <p>
+                Imagine a vibrant beehive, buzzing with knowledge and energy, where each cell is dedicated to a specific Sustainable Development Goal (SDG). In this space, you'll find everything you need to explore, learn, and play while discovering the impact of each SDG on our world.
+            </p>
+            <p>
+                Our little friend, <strong>Buzzbee</strong>, the bee kid, will guide you through each SDG with simple and fun explanations. Buzzbee will bring each story to life, showing you how these goals aim to improve our planet and what we can do to help achieve them.
+            </p>
+            <p>
+                We also invite you to discover fascinating resources, such as observatories and official NASA data, that will allow you to dive deeper into these topics and connect what you've learned with current science and technology. But that's not all! You'll also get to enjoy interactive games that will test your knowledge and teach you in a fun way.
+            </p>
+            <p>
+                So, are you ready to join the hive and learn alongside Buzzbee? Let's explore the world of the SDGs together and fly towards a better future!
+            </p>
+            <p>
+                <em>"True change begins when we educate minds to transform the world."</em>
+            </p>
+        </div>
+    </header>
+
+    <!-- Buzzbee Section -->
+    <section class="bee-child">
+        <img src="images/buzzbee.png" alt="Buzzbee the Bee Kid">
+        <h2>Meet Buzzbee</h2>
+        <p>Buzzbee is our symbol of hope and teamwork. He represents the importance of each individual in building a sustainable future for all.</p>
+    </section>
+
+    <!-- Introductory Section -->
+    <section class="intro">
+        <h1>What are the SDGs?</h1>
+        <p>
+            The Sustainable Development Goals are a universal call to action to end poverty, protect the planet, and improve the lives and prospects of everyone, everywhere. Adopted by all United Nations Member States in 2015, the 17 SDGs are part of the 2030 Agenda for Sustainable Development.
+        </p>
+    </section>
+
+    <!-- SDG Buttons Container -->
+    <section class="sdg-container">
+        <!-- SDG 3 Button -->
+        <a href="SDG3.html" class="ods-button">
+            <img src="images/SDG 3.png" alt="SDG 3">
+            <p>SDG 3: Good Health and Well-being</p>
+        </a>
+        <!-- SDG 4 Button -->
+        <a href="SDG4.html" class="ods-button">
+            <img src="images/SDG 4.png" alt="SDG 4">
+            <p>SDG 4: Quality Education</p>
+        </a>
+        <!-- SDG 14 Button -->
+        <a href="SDG14.html" class="ods-button">
+            <img src="images/SDG 14.png" alt="SDG 14">
+            <p>SDG 14: Life Below Water</p>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Education Hive. All rights reserved.</p>
+    </footer>
+</body>
+</html>

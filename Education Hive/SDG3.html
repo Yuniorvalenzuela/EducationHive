@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 3: Good Health and Well-being</title>
+    <!-- Google Font for a modern style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9; /* Light green background */
+            color: #333;
+        }
+
+        /* Header */
+        .header-sdg {
+            background-color: #4C9F38; /* SDG 3 official color */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Introductory Section */
+        .intro-sdg {
+            padding: 60px 20px;
+            background-color: #c8e6c9; /* Softer green */
+            text-align: center;
+            position: relative;
+        }
+
+        .intro-sdg h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .intro-sdg p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .intro-sdg img {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            top: 20px;
+        }
+
+        .intro-sdg img.left {
+            left: 20px;
+        }
+
+        /* Story Section */
+        .story-sdg {
+            padding: 60px 20px;
+            background-color: #a5d6a7; /* SDG 3 related color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .story-sdg img {
+            width: 250px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .story-sdg .text-content {
+            flex: 1;
+        }
+
+        .story-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .story-sdg p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Goals Section */
+        .goals-sdg {
+            padding: 60px 20px;
+            background-color: #81c784; /* Section color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .goals-sdg img {
+            width: 250px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .goals-sdg .text-content {
+            flex: 1;
+        }
+
+        .goals-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .goals-sdg ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .goals-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        /* Game Mockup Section */
+        .game-mockup {
+            padding: 60px 20px;
+            background-color: #66bb6a; /* Section color */
+            text-align: center;
+        }
+
+        .game-mockup h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .game-mockup img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid #ffffff;
+            border-radius: 10px;
+        }
+
+        /* Resources Section */
+        .resources-sdg {
+            padding: 60px 20px;
+            background-color: #4CAF50; /* Final color of the page */
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .resources-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .resources-sdg a {
+            text-decoration: none;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        .resources-sdg a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .story-sdg, .goals-sdg {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .story-sdg img, .goals-sdg img {
+                margin-bottom: 20px;
+            }
+
+            .goals-sdg ul {
+                padding-left: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-sdg">
+        <h1>SDG 3: Good Health and Well-being</h1>
+        <p>Ensure healthy lives and promote well-being for all at all ages.</p>
+    </header>
+
+    <!-- Introductory Section -->
+    <section class="intro-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Explaining" class="left">
+        <h2>Why is SDG 3 Important?</h2>
+        <p>
+            Good health is essential to sustainable development and the 2030 Agenda. SDG 3 aims to ensure healthy lives and promote well-being for all at all ages. Despite significant strides in improving global health, challenges like pandemics, insufficient healthcare infrastructure, and unequal access to medical services persist.
+        </p>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-sdg">
+        <img src="images/buzzbee3.png" alt="Buzzbee Telling a Story">
+        <div class="text-content">
+            <h3>The Story of SDG 3</h3>
+            <p>
+                In a small village, Buzzbee met children who couldn't go to school because they were often sick. He realized that without good health, they couldn't learn or play. Buzzbee decided to help by teaching the village about cleanliness, proper nutrition, and the importance of vaccinations.
+            </p>
+            <p>
+                With improved health, the children returned to school, and the village prospered. This story highlights how health is interconnected with every aspect of life. SDG 3 focuses on enhancing global health by addressing various health challenges and ensuring access to quality healthcare.
+            </p>
+            <p>
+                Together, we can achieve better health outcomes and build a brighter future for everyone.
+            </p>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Presenting Goals">
+        <div class="text-content">
+            <h3>Goals of SDG 3</h3>
+            <ul>
+                <li>Reduce the global maternal mortality ratio.</li>
+                <li>End preventable deaths of newborns and children under 5 years of age.</li>
+                <li>Fight communicable diseases like AIDS, tuberculosis, malaria.</li>
+                <li>Reduce premature mortality from non-communicable diseases.</li>
+                <li>Ensure universal access to sexual and reproductive healthcare services.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Game Mockup Section -->
+    <section class="game-mockup">
+        <h3>Join Dr. Sammy in a Healthy Adventure!</h3>
+        <img src="images/Mockupgame2.png" alt="Health Game Mockup">
+        <p style="color: #ffffff; font-size: 1.2em; margin-top: 20px;">
+            Help Dr. Sammy promote good health practices! Navigate through challenges, learn about hygiene, nutrition, and make choices that lead to well-being.
+        </p>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-sdg">
+        <h3>Resources to Learn More</h3>
+        <ul>
+            <li><a href="https://www.who.int/data" target="_blank">WHO Health Data</a>: Access global health data and statistics.</li>
+            <li><a href="https://www.unicef.org/health" target="_blank">UNICEF Health</a>: Learn about health initiatives for children worldwide.</li>
+            <li><a href="https://sustainabledevelopment.un.org/sdg3" target="_blank">UN SDG 3 Information</a>: Detailed information about SDG 3 targets and indicators.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Education Hive. All rights reserved.</p>
+    </footer>
+</body>
+</html>

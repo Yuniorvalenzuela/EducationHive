@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 4: Quality Education</title>
+    <!-- Google Font for a modern style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #ffebee; /* Base color for SDG 4 */
+            color: #333;
+        }
+
+        /* Header */
+        .header-sdg {
+            background-color: #b71c1c; /* SDG 4 related color (deep red) */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Introductory Section */
+        .intro-sdg {
+            padding: 60px 20px;
+            background-color: #ffcdd2; /* Softer color for this section */
+            text-align: center;
+            position: relative;
+        }
+
+        .intro-sdg h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .intro-sdg p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .intro-sdg img {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            top: 20px;
+        }
+
+        .intro-sdg img.left {
+            left: 20px;
+        }
+
+        /* Story Section */
+        .story-sdg {
+            padding: 60px 20px;
+            background-color: #ef9a9a; /* SDG 4 related color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .story-sdg img {
+            width: 250px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .story-sdg .text-content {
+            flex: 1;
+        }
+
+        .story-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .story-sdg p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Goals Section */
+        .goals-sdg {
+            padding: 60px 20px;
+            background-color: #e57373; /* Section color */
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .goals-sdg img {
+            width: 250px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .goals-sdg .text-content {
+            flex: 1;
+        }
+
+        .goals-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .goals-sdg ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .goals-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        /* Game Mockup Section */
+        .game-mockup {
+            padding: 60px 20px;
+            background-color: #f44336; /* Section color */
+            text-align: center;
+        }
+
+        .game-mockup h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .game-mockup img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid #ffffff;
+            border-radius: 10px;
+        }
+
+        /* Resources Section */
+        .resources-sdg {
+            padding: 60px 20px;
+            background-color: #d32f2f; /* Final color of the page */
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .resources-sdg h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #ffffff;
+        }
+
+        .resources-sdg ul li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .resources-sdg a {
+            text-decoration: none;
+            color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        .resources-sdg a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .story-sdg, .goals-sdg {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .story-sdg img, .goals-sdg img {
+                margin-bottom: 20px;
+            }
+
+            .goals-sdg ul {
+                padding-left: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-sdg">
+        <h1>SDG 4: Quality Education</h1>
+        <p>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</p>
+    </header>
+
+    <!-- Introductory Section -->
+    <section class="intro-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Explaining" class="left">
+        <h2>Why is SDG 4 Important?</h2>
+        <p>
+            Education is a fundamental human right and a key driver for sustainable development. SDG 4 aims to ensure that all people have access to quality education and lifelong learning opportunities. Despite progress, millions of children and adults lack basic literacy skills and access to education.
+        </p>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-sdg">
+        <img src="images/buzzbee3.png" alt="Buzzbee Telling a Story">
+        <div class="text-content">
+            <h3>The Story of SDG 4</h3>
+            <p>
+                Buzzbee visited a village where children dreamed of learning but had no school. Determined to help, he rallied the community to build a school and gather learning materials. Together, they created a place where everyone could learn and grow, opening doors to new opportunities.
+            </p>
+            <p>
+                SDG 4 was established to promote such initiatives worldwide, focusing on inclusive education and equal access for all, regardless of gender, background, or abilities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals-sdg">
+        <img src="images/buzzbee2.png" alt="Buzzbee Presenting Goals">
+        <div class="text-content">
+            <h3>Goals of SDG 4</h3>
+            <ul>
+                <li>Ensure that all girls and boys complete free, equitable, and quality primary and secondary education.</li>
+                <li>Provide access to quality early childhood development and pre-primary education.</li>
+                <li>Ensure equal access for all women and men to affordable and quality technical, vocational, and tertiary education.</li>
+                <li>Increase the number of youth and adults with relevant skills for employment and entrepreneurship.</li>
+                <li>Eliminate gender disparities in education and ensure equal access for vulnerable groups.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Game Mockup Section -->
+    <section class="game-mockup">
+        <h3>Learn with Prof. Timmy Educational Quest!</h3>
+        <img src="images/Mockupgame3.png" alt="Education Game Mockup">
+        <p style="color: #ffffff; font-size: 1.2em; margin-top: 20px;">
+            Embark on a learning adventure Prof. Timmy! Solve puzzles, explore new subjects, and discover the joy of learning.
+        </p>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-sdg">
+        <h3>Resources to Learn More</h3>
+        <ul>
+            <li><a href="https://en.unesco.org/themes/education2030-sdg4" target="_blank">UNESCO - Education 2030</a>: Information on global education initiatives.</li>
+            <li><a href="https://www.globalpartnership.org/" target="_blank">Global Partnership for Education</a>: Efforts to strengthen education systems worldwide.</li>
+            <li><a href="https://www.unicef.org/education" target="_blank">UNICEF - Education</a>: Programs and resources supporting children's education.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Education Hive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
